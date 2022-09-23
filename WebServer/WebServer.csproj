@@ -14,4 +14,10 @@
     <PackageReference Include="SendGrid" Version="9.28.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="web.Release.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
